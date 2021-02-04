@@ -1,0 +1,87 @@
+
+.items_bg {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-align: start;
+    flex-direction: column;
+}
+
+.item_title {
+    text-align: center;
+    color: #434343; 
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_title h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.item_title p {
+    font-size: 14px;
+    margin: 0;
+} 
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.item_btn button {
+    padding: 0.7rem 5rem;
+    border-radius: 25px;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+    margin-right: 12px;
+}
+
+.item_btn button.order {
+    background-color: rgba(23,26,32,.8);
+    color: #ffffff;
+}
+
+.item_btn button.learn {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #434343;
+}
+
+
+.item_btn button.shop {
+    background-color: rgb(100, 101, 102);
+    color: #ffffff;
+}
+
+.item_btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item_btn .center {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+  #circle--shape {
+        animation: animateShape 1.6s ease-in-out infinite
+  }
+
+
+  @keyframes animateShape {
+    50%{
+        cy: 70;
+        opacity: .1
+      }
+  }
+
+   

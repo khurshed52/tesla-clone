@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    position: fixed;
+    width: 96%;
+    right: 2%;
+    top: 0;
+}
+
+.header img {
+    height: 12px;
+    object-fit: contain;
+}
+
+.header_middle li, .header_right li {
+    display: inline-block;
+}
+
+.header_middle li a, .header_right li a {
+  color: #434343;
+  font-weight: 500;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.MuiSvgIcon-root {
+    vertical-align: text-bottom;
+}
+

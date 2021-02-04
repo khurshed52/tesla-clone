@@ -1,0 +1,14 @@
+.items_container {
+    scroll-snap-type:y mandatory;
+    overflow: auto;
+    height: 100vh;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
